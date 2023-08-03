@@ -1,0 +1,62 @@
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid sienna; /* Fixed syntax error */
+    color: darkblue;
+}
+
+.heading span {
+    color: rgb(79, 27, 2);
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    font-size:20px;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .counter {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about .row .info h3 span {
+    font-size: 30px;
+    color: rgb(121, 9, 26);
+    padding: 0 0.5rem;
+}
+
+body {
+    background-color: rgb(142, 220, 220);
+}
+
+.about .row .counter .box {
+    width: 25rem;
+    background: rgb(134, 200, 218);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.about .row .counter .box span {
+    font-size: 4rem;
+    color: rgb(7, 96, 75);
+}
+
+.about .row .counter .box h4 {
+    font-size: 2rem;
+    color: rgb(119, 5, 47);
+}
+

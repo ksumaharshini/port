@@ -1,0 +1,42 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Skills section styles */
+.skills {
+    background-color: #68cbe6;
+    padding: 100px 0;
+}
+
+.skills .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4d0202;
+}
+
+.skill-list ul {
+    list-style: none;
+    text-align: center;
+}
+
+.skill-list ul.sub-list {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.skill-list li {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 1.2rem;
+    color: #070c76;
+}
+
+/* Additional styling for sub-list items */
+.skill-list ul.sub-list li {
+    margin: 5px 0;
+    font-size: 1rem;
+}

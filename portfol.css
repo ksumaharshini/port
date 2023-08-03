@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+h1{
+    color: ivory;
+}
+header{
+    background-color: black;
+    height: 100px;
+    padding:20px;
+}
+ul li{
+    display:inline;
+    color: burlywood;
+    padding:30px;
+}
+ul li a{
+    color: burlywood;
+    text-decoration: none;
+}
+#home img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+#Portfolio{
+    background-color: blanchedalmond;
+}
+#Skills ul li{
+    color:black;
+}
+footer{
+    background-color: brown;
+    height: 50px;
+} 

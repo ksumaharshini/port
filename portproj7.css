@@ -1,0 +1,78 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    background-color: rgb(33, 4, 74);
+    margin: 0;
+    padding: 0;
+}
+#head{
+    color:aliceblue;
+}
+/* Header styles */
+.header {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: transparent;
+    display: flex;
+}
+
+.navbar a {
+    color: aliceblue;
+    margin-left: 150px;
+    display: inline-flex;
+    text-decoration: double;
+}
+
+.navbar a:hover {
+    color: rgb(12, 142, 217);
+}
+
+/* Home section styles */
+.home {
+    background: linear-gradient(to right, rgb(38, 188, 71) 35% , rgb(17, 17, 71) 45%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between items */
+    padding: 100px 10%; /* Adjust the padding as needed */
+    color: bisque;
+    text-align: center; /* Align text in the center */
+}
+
+.homecontent {
+    max-width: 60%; /* Adjust the width of the content area */
+    align-items:end;
+    margin-left:"50%";
+}
+
+.homecontent h1 {
+    font-size: 55px;
+    line-height: 1.9;
+}
+
+.homecontent h3 {
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.homecontent p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align images to the right */
+    max-width: 45%; /* Adjust the width of the image area */
+}
+
+.image img {
+    max-height:30px;
+    max-width: 30px; /* Adjust the maximum width of the images */
+    margin-left: 10px; /* Adjust the spacing between images */
+}
+.home img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
